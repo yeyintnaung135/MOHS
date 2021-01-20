@@ -19,6 +19,6 @@ Route::get('/', function () {
 Route::get('/main', function () {
     return view('index');
 });
-Route::get('/type_one_data_insert', function () {
-    return view('type_one_data_insert');
+Route::get('/type_two_data_insert', function () {
+    return view('type_two_data_insert');
 });

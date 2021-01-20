@@ -16,7 +16,7 @@
     <!-- This page CSS -->
     <!-- chartist CSS -->
     <link href="{{asset('node_modules/morrisjs/morris.css')}}" rel="stylesheet">
-    <!--Toaster Popup message CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css" integrity="sha512-shT5e46zNSD6lt4dlJHb+7LoUko9QZXTGlmWWx0qjI9UhQrElRb+Q5DM7SVte9G9ZNmovz2qIaV7IWv0xQkBkw==" crossorigin="anonymous" />    <!--Toaster Popup message CSS -->
     <link href="{{asset('node_modules/toast-master/css/jquery.toast.css')}}" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="{{asset('dist/css/style.min.css')}}" rel="stylesheet">

@@ -21,7 +21,7 @@
                     <li><a class="waves-effect waves-dark" href="{{url('main')}}"><i class="icon-speedometer"></i><span
                                     class="hide-menu">Dashboard</span></a>
                     </li>
-                    <li><a class="waves-effect waves-dark" href="{{url('type_one_data_insert')}}"><i class="ti-layout-grid2"></i><span
+                    <li><a class="waves-effect waves-dark" href="{{url('type_two_data_insert')}}"><i class="ti-layout-grid2"></i><span
                                     class="hide-menu">Type one patient &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;register</span></a>
                     </li>
                     {{--<li><a class="has-arrow waves-effect waves-dark" href="javascript:void(0)"--}}
