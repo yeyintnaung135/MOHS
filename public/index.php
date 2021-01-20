@@ -37,6 +37,18 @@ require __DIR__.'/../vendor/autoload.php';
 
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
+//change custom asset path by ye yint naung
+
+$app->bind('path.public', function() {
+    return __DIR__;
+});
+function asset($path, $secure = null)
+{
+    return app('url')->asset('public/'.$path, $secure);
+}
+//change custom asset path by ye yint naung
+
+
 /*
 |--------------------------------------------------------------------------
 | Run The Application

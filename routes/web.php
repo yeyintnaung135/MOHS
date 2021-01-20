@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/main', function () {
+    return view('index');
+});
+Route::get('/type_one_data_insert', function () {
+    return view('type_one_data_insert');
+});
