@@ -35,6 +35,14 @@
                                 <li><a href="javascript:void(0)">item 1.3.4</a></li>
                             </ul>
                         </li>
+                        <li> <a class="has-arrow" href="javascript:void(0)" aria-expanded="false">Others</a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="{{url('avicreate')}}">Add</a></li>
+                                <li><a href="{{url('avilist')}}">list</a></li>
+                                <li><a href="javascript:void(0)">item 1.3.3</a></li>
+                                <li><a href="javascript:void(0)">item 1.3.4</a></li>
+                            </ul>
+                        </li>
                         <li><a href="javascript:void(0)">item 1.4</a></li>
                     </ul>
                 </li>
