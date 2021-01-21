@@ -19,7 +19,7 @@
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
     @include('layouts.header')
-        <!-- ============================================================== -->
+    <!-- ============================================================== -->
         <!-- End Topbar header -->
         <!-- ============================================================== -->
         <!-- ============================================================== -->
@@ -69,38 +69,38 @@
                                            cellspacing="0" width="100%">
                                         <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Age</th>
-                                            <th>Gender</th>
-                                            <th>Town</th>
-                                            <th>Phone</th>
-                                            <th>Reg Date</th>
+                                            <th>Patient ID</th>
+                                            <th>HBA1C</th>
+                                            <th>HB</th>
+                                            <th>CR</th>
+                                            <th>UACR</th>
+                                            <th>CHOL</th>
                                             <th>Action</th>
 
                                         </tr>
                                         </thead>
                                         <tfoot>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Age</th>
-                                            <th>Gender</th>
-                                            <th>Town</th>
-                                            <th>Phone</th>
-                                            <th>Reg Date</th>
+                                            <th>Patient ID</th>
+                                            <th>HBA1C</th>
+                                            <th>HB</th>
+                                            <th>CR</th>
+                                            <th>UACR</th>
+                                            <th>CHOL</th>
                                             <th>Action</th>
                                         </tr>
                                         </tfoot>
                                         <tbody>
                                         @foreach($data as $d)
                                             <tr>
-                                                <td>{{$d->name}}</td>
-                                                <td>{{$d->age}}</td>
-                                                <td>{{$d->gender}}</td>
-                                                <td>{{$d->town}}</td>
-                                                <td>{{$d->phone}}</td>
+                                                <td>{{$d->patient_id}}</td>
+                                                <td>{{$d->hba1c}}</td>
+                                                <td>{{$d->hb}}</td>
+                                                <td>{{$d->cr}}</td>
+                                                <td>{{$d->uacr}}</td>
 
-                                                <td> {{\Carbon\Carbon::parse($d->created_at)->toDateString()}}</td>
-                                                <td><a href="" class="btn btn-success mr-2 btn-xs">Edit</a><a href="{{url('/type_two_patient_detail/'.$d->id)}}" class="btn btn-info btn-xs">Detail</a>
+                                                <td> {{$d->chol}}</td>
+                                                <td><a href="" class="btn btn-success mr-2 btn-xs">Edit</a><a href="{{url('/type_two_followup_detail/'.$d->id)}}" class="btn btn-info btn-xs">Detail</a>
                                                 </td>
                                             </tr>
                                         @endforeach

@@ -18,351 +18,7 @@
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
-        <header class="topbar">
-            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
-                <!-- ============================================================== -->
-                <!-- Logo -->
-                <!-- ============================================================== -->
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">
-                        <!-- Logo icon --><b>
-                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
-                            <!-- Dark Logo icon -->
-                            <img src="{{asset('images/logo-icon.png')}}" alt="homepage" class="dark-logo"/>
-                            <!-- Light Logo icon -->
-                            <img src="{{asset('images/logo-light-icon.png')}}" alt="homepage" class="light-logo"/>
-                        </b>
-                        <!--End Logo icon -->
-                        <span class="hidden-xs"><span class="font-bold">Test</span>hospital</span>
-                    </a>
-                </div>
-                <!-- ============================================================== -->
-                <!-- End Logo -->
-                <!-- ============================================================== -->
-                <div class="navbar-collapse">
-                    <!-- ============================================================== -->
-                    <!-- toggle and nav items -->
-                    <!-- ============================================================== -->
-                    <ul class="navbar-nav mr-auto">
-                        <!-- This is  -->
-                        <li class="nav-item"><a class="nav-link nav-toggler d-block d-md-none waves-effect waves-dark"
-                                                href="javascript:void(0)"><i class="ti-menu"></i></a></li>
-                        <li class="nav-item"><a
-                                    class="nav-link sidebartoggler d-none d-lg-block d-md-block waves-effect waves-dark"
-                                    href="javascript:void(0)"><i class="icon-menu"></i></a></li>
-                        <!-- ============================================================== -->
-                        <!-- Search -->
-                        <!-- ============================================================== -->
-                        <li class="nav-item">
-                            <form class="app-search d-none d-md-block d-lg-block">
-                                <input type="text" class="form-control" placeholder="Search & enter">
-                            </form>
-                        </li>
-                    </ul>
-                    <!-- ============================================================== -->
-                    <!-- User profile and search -->
-                    <!-- ============================================================== -->
-                    <ul class="navbar-nav my-lg-0">
-                        <!-- ============================================================== -->
-                        <!-- Comment -->
-                        <!-- ============================================================== -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown"
-                               aria-haspopup="true" aria-expanded="false"> <i class="ti-email"></i>
-                                <div class="notify"><span class="heartbit"></span> <span class="point"></span></div>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right mailbox animated bounceInDown">
-                                <ul>
-                                    <li>
-                                        <div class="drop-title">Notifications</div>
-                                    </li>
-                                    <li>
-                                        <div class="message-center">
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)">
-                                                <div class="btn btn-danger btn-circle"><i class="fa fa-link"></i></div>
-                                                <div class="mail-contnet">
-                                                    <h5>Luanch Admin</h5> <span class="mail-desc">Just see the my new admin!</span>
-                                                    <span class="time">9:30 AM</span></div>
-                                            </a>
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)">
-                                                <div class="btn btn-success btn-circle"><i class="ti-calendar"></i>
-                                                </div>
-                                                <div class="mail-contnet">
-                                                    <h5>Event today</h5> <span class="mail-desc">Just a reminder that you have event</span>
-                                                    <span class="time">9:10 AM</span></div>
-                                            </a>
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)">
-                                                <div class="btn btn-info btn-circle"><i class="ti-settings"></i></div>
-                                                <div class="mail-contnet">
-                                                    <h5>Settings</h5> <span class="mail-desc">You can customize this template as you want</span>
-                                                    <span class="time">9:08 AM</span></div>
-                                            </a>
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)">
-                                                <div class="btn btn-primary btn-circle"><i class="ti-user"></i></div>
-                                                <div class="mail-contnet">
-                                                    <h5>Pavan kumar</h5> <span
-                                                            class="mail-desc">Just see the my admin!</span> <span
-                                                            class="time">9:02 AM</span></div>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a class="nav-link text-center link" href="javascript:void(0);"> <strong>Check
-                                                all notifications</strong> <i class="fa fa-angle-right"></i> </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <!-- ============================================================== -->
-                        <!-- End Comment -->
-                        <!-- ============================================================== -->
-                        <!-- ============================================================== -->
-                        <!-- Messages -->
-                        <!-- ============================================================== -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" id="2"
-                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
-                                        class="icon-note"></i>
-                                <div class="notify"><span class="heartbit"></span> <span class="point"></span></div>
-                            </a>
-                            <div class="dropdown-menu mailbox dropdown-menu-right animated bounceInDown"
-                                 aria-labelledby="2">
-                                <ul>
-                                    <li>
-                                        <div class="drop-title">You have 4 new messages</div>
-                                    </li>
-                                    <li>
-                                        <div class="message-center">
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)">
-                                                <div class="user-img"><img src="../assets/images/users/1.jpg" alt="user"
-                                                                           class="img-circle"> <span
-                                                            class="profile-status online pull-right"></span></div>
-                                                <div class="mail-contnet">
-                                                    <h5>Pavan kumar</h5> <span
-                                                            class="mail-desc">Just see the my admin!</span> <span
-                                                            class="time">9:30 AM</span></div>
-                                            </a>
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)">
-                                                <div class="user-img"><img src="../assets/images/users/2.jpg" alt="user"
-                                                                           class="img-circle"> <span
-                                                            class="profile-status busy pull-right"></span></div>
-                                                <div class="mail-contnet">
-                                                    <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span>
-                                                    <span class="time">9:10 AM</span></div>
-                                            </a>
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)">
-                                                <div class="user-img"><img src="../assets/images/users/3.jpg" alt="user"
-                                                                           class="img-circle"> <span
-                                                            class="profile-status away pull-right"></span></div>
-                                                <div class="mail-contnet">
-                                                    <h5>Arijit Sinh</h5> <span class="mail-desc">I am a singer!</span>
-                                                    <span class="time">9:08 AM</span></div>
-                                            </a>
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)">
-                                                <div class="user-img"><img src="../assets/images/users/4.jpg" alt="user"
-                                                                           class="img-circle"> <span
-                                                            class="profile-status offline pull-right"></span></div>
-                                                <div class="mail-contnet">
-                                                    <h5>Pavan kumar</h5> <span
-                                                            class="mail-desc">Just see the my admin!</span> <span
-                                                            class="time">9:02 AM</span></div>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a class="nav-link text-center link" href="javascript:void(0);"> <strong>See all
-                                                e-Mails</strong> <i class="fa fa-angle-right"></i> </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <!-- ============================================================== -->
-                        <!-- End Messages -->
-                        <!-- ============================================================== -->
-                        <!-- ============================================================== -->
-                        <!-- mega menu -->
-                        <!-- ============================================================== -->
-                        <li class="nav-item dropdown mega-dropdown"><a
-                                    class="nav-link dropdown-toggle waves-effect waves-dark" href="#"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
-                                        class="ti-layout-width-default"></i></a>
-                            <div class="dropdown-menu animated bounceInDown">
-                                <ul class="mega-dropdown-menu row">
-                                    <li class="col-lg-3 col-xlg-2 m-b-30">
-                                        <h4 class="m-b-20">CAROUSEL</h4>
-                                        <!-- CAROUSEL -->
-                                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                            <div class="carousel-inner" role="listbox">
-                                                <div class="carousel-item active">
-                                                    <div class="container"><img class="d-block img-fluid"
-                                                                                src="../assets/images/big/img1.jpg"
-                                                                                alt="First slide"></div>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="container"><img class="d-block img-fluid"
-                                                                                src="../assets/images/big/img2.jpg"
-                                                                                alt="Second slide"></div>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="container"><img class="d-block img-fluid"
-                                                                                src="../assets/images/big/img3.jpg"
-                                                                                alt="Third slide"></div>
-                                                </div>
-                                            </div>
-                                            <a class="carousel-control-prev" href="#carouselExampleControls"
-                                               role="button" data-slide="prev"> <span class="carousel-control-prev-icon"
-                                                                                      aria-hidden="true"></span> <span
-                                                        class="sr-only">Previous</span> </a>
-                                            <a class="carousel-control-next" href="#carouselExampleControls"
-                                               role="button" data-slide="next"> <span class="carousel-control-next-icon"
-                                                                                      aria-hidden="true"></span> <span
-                                                        class="sr-only">Next</span> </a>
-                                        </div>
-                                        <!-- End CAROUSEL -->
-                                    </li>
-                                    <li class="col-lg-3 m-b-30">
-                                        <h4 class="m-b-20">ACCORDION</h4>
-                                        <!-- Accordian -->
-                                        <div id="accordion" class="nav-accordion" role="tablist"
-                                             aria-multiselectable="true">
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingOne">
-                                                    <h5 class="mb-0">
-                                                        <a data-toggle="collapse" data-parent="#accordion"
-                                                           href="#collapseOne" aria-expanded="true"
-                                                           aria-controls="collapseOne">
-                                                            Collapsible Group Item #1
-                                                        </a>
-                                                    </h5>
-                                                </div>
-                                                <div id="collapseOne" class="collapse show" role="tabpanel"
-                                                     aria-labelledby="headingOne">
-                                                    <div class="card-body"> Anim pariatur cliche reprehenderit, enim
-                                                        eiusmod high.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingTwo">
-                                                    <h5 class="mb-0">
-                                                        <a class="collapsed" data-toggle="collapse"
-                                                           data-parent="#accordion" href="#collapseTwo"
-                                                           aria-expanded="false" aria-controls="collapseTwo">
-                                                            Collapsible Group Item #2
-                                                        </a>
-                                                    </h5>
-                                                </div>
-                                                <div id="collapseTwo" class="collapse" role="tabpanel"
-                                                     aria-labelledby="headingTwo">
-                                                    <div class="card-body"> Anim pariatur cliche reprehenderit, enim
-                                                        eiusmod high life accusamus terry richardson ad squid.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingThree">
-                                                    <h5 class="mb-0">
-                                                        <a class="collapsed" data-toggle="collapse"
-                                                           data-parent="#accordion" href="#collapseThree"
-                                                           aria-expanded="false" aria-controls="collapseThree">
-                                                            Collapsible Group Item #3
-                                                        </a>
-                                                    </h5>
-                                                </div>
-                                                <div id="collapseThree" class="collapse" role="tabpanel"
-                                                     aria-labelledby="headingThree">
-                                                    <div class="card-body"> Anim pariatur cliche reprehenderit, enim
-                                                        eiusmod high life accusamus terry richardson ad squid.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="col-lg-3  m-b-30">
-                                        <h4 class="m-b-20">CONTACT US</h4>
-                                        <!-- Contact -->
-                                        <form>
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" id="exampleInputname1"
-                                                       placeholder="Enter Name"></div>
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" placeholder="Enter email">
-                                            </div>
-                                            <div class="form-group">
-                                                <textarea class="form-control" id="exampleTextarea" rows="3"
-                                                          placeholder="Message"></textarea>
-                                            </div>
-                                            <button type="submit" class="btn btn-info">Submit</button>
-                                        </form>
-                                    </li>
-                                    <li class="col-lg-3 col-xlg-4 m-b-30">
-                                        <h4 class="m-b-20">List style</h4>
-                                        <!-- List style -->
-                                        <ul class="list-style-none">
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i>
-                                                    You can give link</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i>
-                                                    Give link</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i>
-                                                    Another Give link</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i>
-                                                    Forth link</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i>
-                                                    Another fifth link</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <!-- ============================================================== -->
-                        <!-- End mega menu -->
-                        <!-- ============================================================== -->
-                        <!-- ============================================================== -->
-                        <!-- User Profile -->
-                        <!-- ============================================================== -->
-                        <li class="nav-item dropdown u-pro">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="#"
-                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
-                                        src="../assets/images/users/1.jpg" alt="user" class=""> <span
-                                        class="hidden-md-down">Mark &nbsp;<i class="fa fa-angle-down"></i></span> </a>
-                            <div class="dropdown-menu dropdown-menu-right animated flipInY">
-                                <!-- text-->
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="ti-user"></i> My
-                                    Profile</a>
-                                <!-- text-->
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="ti-wallet"></i> My Balance</a>
-                                <!-- text-->
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="ti-email"></i> Inbox</a>
-                                <!-- text-->
-                                <div class="dropdown-divider"></div>
-                                <!-- text-->
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="ti-settings"></i> Account
-                                    Setting</a>
-                                <!-- text-->
-                                <div class="dropdown-divider"></div>
-                                <!-- text-->
-                                <a href="login.html" class="dropdown-item"><i class="fa fa-power-off"></i> Logout</a>
-                                <!-- text-->
-                            </div>
-                        </li>
-                        <!-- ============================================================== -->
-                        <!-- End User Profile -->
-                        <!-- ============================================================== -->
-                        <li class="nav-item right-side-toggle"><a class="nav-link  waves-effect waves-light"
-                                                                  href="javascript:void(0)"><i class="ti-settings"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+    @include('layouts.header')
         <!-- ============================================================== -->
         <!-- End Topbar header -->
         <!-- ============================================================== -->
@@ -409,13 +65,13 @@
 
 
 
-<form>
+                <form  method="POST" action="{{url('type_two_data_insert')}}">
+
 
                 {{--First form--}}
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="card">
-                            <form action="#">
                                 <div class="card-body">
                                     <h4 class="card-title">Type Two Patient Register form</h4>
                                 </div>
@@ -426,21 +82,18 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Name</label>
-                                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                                           aria-describedby="emailHelp" placeholder="Enter email">
-                                                    <small id="emailHelp" class="form-text text-muted">We'll never share
-                                                        your email
-                                                        with anyone else.
-                                                    </small>
+                                                    <input type="text" class="form-control" name="name" id="exampleInputEmail1"
+                                                           aria-describedby="emailHelp" placeholder="Enter Name">
+
                                                 </div>
                                             </div>
                                             <!--/span-->
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Age</label>
-                                                    <input type="password" class="form-control"
+                                                    <input type="text" name="age" class="form-control"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           placeholder="age">
                                                 </div>
                                             </div>
                                             <!--/span-->
@@ -454,13 +107,13 @@
                                                         <div class="row no-gutters">
                                                             <div class="col-xs-4 mr-5">
                                                                 <input type="radio" id="customRadio11"
-                                                                       name="customRadio" class="custom-control-input"
+                                                                       name="gender" value='male' class="custom-control-input"
                                                                        checked>
                                                                 <label class="custom-control-label" for="customRadio11">Male</label>
                                                             </div>
                                                             <div class="col-xs-4">
                                                                 <input type="radio" id="customRadio12"
-                                                                       name="customRadio" class="custom-control-input">
+                                                                       name="gender" value='female' class="custom-control-input">
                                                                 <label class="custom-control-label" for="customRadio12">Female</label>
                                                             </div>
 
@@ -476,9 +129,9 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Duration of D/M/Y</label>
-                                                    <input type="password" class="form-control"
+                                                    <input type="text" name="duration_of_dm" class="form-control"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           placeholder="Duration of D/M/Y">
                                                 </div>
                                             </div>
 
@@ -491,17 +144,17 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Address(Town)</label>
-                                                    <input type="password" class="form-control"
+                                                    <input type="text" name="town" class="form-control"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           placeholder="Address(Town)">
                                                 </div>
                                             </div>                                            <!--/span-->
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Year of Dx</label>
-                                                    <input type="password" class="form-control"
+                                                    <input type="text" name="year_of_dx"  class="form-control"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           placeholder="Year of Dx">
                                                 </div>
                                             </div>
 
@@ -514,9 +167,9 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Phone No</label>
-                                                    <input type="text" class="form-control"
+                                                    <input type="number" name="phone" class="form-control"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           placeholder="Phone No">
                                                 </div>
                                             </div>                                            <!--/span-->
                                             <div class="col-md-6">
@@ -526,13 +179,13 @@
                                                         <div class="row no-gutters">
                                                             <div class="col-xs-4 mr-5">
                                                                 <input type="radio" id="customRadio13"
-                                                                       name="customRadio" class="custom-control-input"
+                                                                       name="family_ho" value='yes' class="custom-control-input"
                                                                        checked>
                                                                 <label class="custom-control-label" for="customRadio13">Yes</label>
                                                             </div>
                                                             <div class="col-xs-4">
                                                                 <input type="radio" id="customRadio14"
-                                                                       name="customRadio" class="custom-control-input">
+                                                                       name="family_ho" value='no' class="custom-control-input">
                                                                 <label class="custom-control-label" for="customRadio14">No</label>
                                                             </div>
 
@@ -556,7 +209,6 @@
                                     </div>
 
                                 </div>
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -570,7 +222,6 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="card">
-                            <form action="#">
                                 <div class="card-body">
                                     <h4 class="card-title">Medical Problem</h4>
                                 </div>
@@ -581,8 +232,8 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Hypertension</label>
-                                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                                           aria-describedby="emailHelp" placeholder="Enter email">
+                                                    <input type="text" class="form-control" name="hypertension"  id="exampleInputEmail1"
+                                                           aria-describedby="emailHelp" placeholder="Hypertension">
 
                                                 </div>
                                             </div>
@@ -590,7 +241,7 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Dyslipidaemia</label>
-                                                    <input type="password" class="form-control"
+                                                    <input type="text" name="dyslipidaemia" class="form-control"
                                                            id="exampleInputPassword1"
                                                            placeholder="Dyslipidaemia">
                                                 </div>
@@ -601,16 +252,17 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label for="exampleInputPassword1">DMI</label>
+                                                    <label for="exampleInputPassword1">BMI</label>
                                                     <div class="row no-gutters">
                                                     <div class="col-3 mr-2">
-                                                        <input type="password" class="form-control"
+                                                        <input type="text" name="bmi_weight" class="form-control"
                                                                                id="exampleInputPassword1"
                                                                                placeholder="Weight">
                                                     </div>
                                                     <div class="col-3">
-                                                        <input type="password" class="form-control"
+                                                        <input type="text" class="form-control"
                                                                id="exampleInputPassword1"
+                                                               name="bmi_height"
                                                                placeholder="Height">
                                                     </div>
                                                     </div>
@@ -621,9 +273,9 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Tuberculosis</label>
-                                                    <input type="password" class="form-control"
+                                                    <input type="text" name="tuberculosis" class="form-control"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           placeholder="Tuberculosis">
                                                 </div>
                                             </div>
 
@@ -636,17 +288,17 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Stroke</label>
-                                                    <input type="password" class="form-control"
+                                                    <input type="text" name="stroke" class="form-control"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           placeholder="Stroke">
                                                 </div>
                                             </div>                                            <!--/span-->
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">IHD/MI</label>
-                                                    <input type="password" class="form-control"
+                                                    <input type="text" name="ihd_mi" class="form-control"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           placeholder="IHD/MI">
                                                 </div>
                                             </div>
 
@@ -659,17 +311,17 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Nephropathy</label>
-                                                    <input type="text" class="form-control"
+                                                    <input type="text" name="nephropathy" class="form-control"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           placeholder="Nephropathy">
                                                 </div>
                                             </div>                                            <!--/span-->
                                                <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Neuropathy</label>
-                                                    <input type="text" class="form-control"
+                                                    <input type="text" name="neuropathy" class="form-control"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           placeholder="Neuropathy">
                                                 </div>
                                             </div>                                            <!--/span-->
 
@@ -679,17 +331,17 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">DM foot</label>
-                                                    <input type="text" class="form-control"
+                                                    <input type="text" name='dm_foot' class="form-control"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           placeholder="DM foot">
                                                 </div>
                                             </div>                                            <!--/span-->
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Others</label>
-                                                    <input type="text" class="form-control"
+                                                    <input type="text" name="others" class="form-control"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           placeholder="Others">
                                                 </div>
                                             </div>                                            <!--/span-->
 
@@ -706,13 +358,13 @@
                                                         <div class="row no-gutters">
                                                             <div class="col-xs-4 mr-5">
                                                                 <input type="radio" id="customRadio16"
-                                                                       name="customRadio" class="custom-control-input"
+                                                                       name="surgical_history" value="yes" class="custom-control-input"
                                                                        checked>
                                                                 <label class="custom-control-label" for="customRadio16">Yes</label>
                                                             </div>
                                                             <div class="col-xs-4">
                                                                 <input type="radio" id="customRadio17"
-                                                                       name="customRadio" class="custom-control-input">
+                                                                       name="surgical_history" value="no" class="custom-control-input">
                                                                 <label class="custom-control-label" for="customRadio17">No</label>
                                                             </div>
 
@@ -738,7 +390,6 @@
                                     </div>
                                     <hr>
                                 </div>
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -753,7 +404,6 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="card">
-                            <form action="#">
                                 <div class="card-body">
                                     <h4 class="card-title">Infection</h4>
                                 </div>
@@ -772,13 +422,13 @@
                                                         <div class="row no-gutters">
                                                             <div class="col-xs-4 mr-5">
                                                                 <input type="radio" id="customRadio19"
-                                                                       name="customRadio" class="custom-control-input"
+                                                                       name="hbv" value='yes' class="custom-control-input"
                                                                        checked>
                                                                 <label class="custom-control-label" for="customRadio19">Yes</label>
                                                             </div>
                                                             <div class="col-xs-4">
                                                                 <input type="radio" id="customRadio20"
-                                                                       name="customRadio" class="custom-control-input">
+                                                                       name="hbv" value='no' class="custom-control-input">
                                                                 <label class="custom-control-label" for="customRadio20">No</label>
                                                             </div>
 
@@ -799,13 +449,13 @@
                                                         <div class="row no-gutters">
                                                             <div class="col-xs-4 mr-5">
                                                                 <input type="radio" id="customRadio211"
-                                                                       name="customRadio" class="custom-control-input"
+                                                                       name="hcv" value="yes" class="custom-control-input"
                                                                        checked>
                                                                 <label class="custom-control-label" for="customRadio211">Yes</label>
                                                             </div>
                                                             <div class="col-xs-4">
                                                                 <input type="radio" id="customRadio222"
-                                                                       name="customRadio" class="custom-control-input">
+                                                                       name="hcv" value="no" class="custom-control-input">
                                                                 <label class="custom-control-label" for="customRadio222">No</label>
                                                             </div>
 
@@ -827,13 +477,13 @@
                                                         <div class="row no-gutters">
                                                             <div class="col-xs-4 mr-5">
                                                                 <input type="radio" id="customRadio23"
-                                                                       name="customRadio" class="custom-control-input"
+                                                                       name="rvi" value="yes" class="custom-control-input"
                                                                        checked>
                                                                 <label class="custom-control-label" for="customRadio23">Yes</label>
                                                             </div>
                                                             <div class="col-xs-4">
                                                                 <input type="radio" id="customRadio24"
-                                                                       name="customRadio" class="custom-control-input">
+                                                                       name="rvi" value="no" class="custom-control-input">
                                                                 <label class="custom-control-label" for="customRadio24">No</label>
                                                             </div>
 
@@ -861,7 +511,6 @@
                                     </div>
                                     <hr>
                                 </div>
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -892,13 +541,13 @@
                                                         <div class="row no-gutters">
                                                             <div class="col-xs-4 mr-5">
                                                                 <input type="radio" id="customRadio191"
-                                                                       name="customRadio" class="custom-control-input"
+                                                                       name="smoking" value="yes" class="custom-control-input"
                                                                        checked>
                                                                 <label class="custom-control-label" for="customRadio191">Yes</label>
                                                             </div>
                                                             <div class="col-xs-4">
                                                                 <input type="radio" id="customRadio201"
-                                                                       name="customRadio" class="custom-control-input">
+                                                                       name="smoking" value="no" class="custom-control-input">
                                                                 <label class="custom-control-label" for="customRadio201">No</label>
                                                             </div>
 
@@ -919,13 +568,13 @@
                                                         <div class="row no-gutters">
                                                             <div class="col-xs-4 mr-5">
                                                                 <input type="radio" id="customRadio2111"
-                                                                       name="customRadio2111" class="custom-control-input"
+                                                                       name="alcohol" value='yes' class="custom-control-input"
                                                                        checked>
                                                                 <label class="custom-control-label" for="customRadio2111">Yes</label>
                                                             </div>
                                                             <div class="col-xs-4">
                                                                 <input type="radio" id="customRadio2222"
-                                                                       name="customRadio2222" class="custom-control-input">
+                                                                       name="alcohol" value='no' class="custom-control-input">
                                                                 <label class="custom-control-label" for="customRadio2222">No</label>
                                                             </div>
 
@@ -947,13 +596,13 @@
                                                         <div class="row no-gutters">
                                                             <div class="col-xs-4 mr-5">
                                                                 <input type="radio" id="customRadio231"
-                                                                       name="customRadio231" class="custom-control-input"
+                                                                       name="betal_chewing" value="yes" class="custom-control-input"
                                                                        checked>
                                                                 <label class="custom-control-label" for="customRadio231">Yes</label>
                                                             </div>
                                                             <div class="col-xs-4">
                                                                 <input type="radio" id="customRadio241"
-                                                                       name="customRadio241" class="custom-control-input">
+                                                                       name="betal_chewing" value="no" class="custom-control-input">
                                                                 <label class="custom-control-label" for="customRadio241">No</label>
                                                             </div>
 
@@ -995,7 +644,6 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="card">
-                            <form action="#">
                                 <div class="card-body">
                                     <h4 class="card-title">Drug History</h4>
                                 </div>
@@ -1006,8 +654,8 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">OAD</label>
-                                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                                           aria-describedby="emailHelp" placeholder="Enter email">
+                                                    <input type="text" class="form-control" name="oad" id="exampleInputEmail1"
+                                                           aria-describedby="emailHelp" placeholder="OAD">
 
                                                 </div>
                                             </div>
@@ -1015,9 +663,9 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Insulin</label>
-                                                    <input type="password" class="form-control"
+                                                    <input type="text" name="insulin" class="form-control"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Dyslipidaemia">
+                                                           placeholder="Insulin">
                                                 </div>
                                             </div>
                                             <!--/span-->
@@ -1030,17 +678,17 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Traditional</label>
-                                                    <input type="password" class="form-control"
-                                                           id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                    <input type="text" class="form-control"
+                                                           id="exampleInputPassword1" name="traditional"
+                                                           placeholder="Traditional">
                                                 </div>
                                             </div>                                            <!--/span-->
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Native</label>
-                                                    <input type="password" class="form-control"
+                                                    <input type="text" name="native" class="form-control"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           placeholder="Native">
                                                 </div>
                                             </div>
 
@@ -1053,17 +701,17 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Anti H/T</label>
-                                                    <input type="text" class="form-control"
+                                                    <input type="text" name="anti_ht" class="form-control"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           placeholder="Anti H/T">
                                                 </div>
                                             </div>                                            <!--/span-->
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Anti Lipid</label>
-                                                    <input type="text" class="form-control"
+                                                    <input type="text" class="form-control" name="anti_lipid"
                                                            id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           placeholder="Anti Lipid">
                                                 </div>
                                             </div>                                            <!--/span-->
 
@@ -1074,8 +722,8 @@
                                                 <div class="form-group">
                                                     <label for="exampleInputPassword1">Other</label>
                                                     <input type="text" class="form-control"
-                                                           id="exampleInputPassword1"
-                                                           placeholder="Password">
+                                                           id="exampleInputPassword1" name="others_drug_his"
+                                                           placeholder="Other">
                                                 </div>
                                             </div>                                            <!--/span-->
                                                                                    <!--/span-->
@@ -1095,7 +743,6 @@
 
                                     </div>
                                 </div>
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -1110,7 +757,6 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="card">
-                            <form action="#">
 
                                 <hr>
                                 <div class="form-body">
@@ -1125,15 +771,15 @@
                                                     <div class="custom-control custom-radio">
                                                         <div class="row no-gutters">
                                                             <div class="col-xs-4 mr-5">
-                                                                <input type="radio" id="customRadio16"
-                                                                       name="customRadio" class="custom-control-input"
+                                                                <input type="radio" id="customRadio1216"
+                                                                       name="dental_problem" value="yes" class="custom-control-input"
                                                                        checked>
-                                                                <label class="custom-control-label" for="customRadio16">Yes</label>
+                                                                <label class="custom-control-label" for="customRadio1216">Yes</label>
                                                             </div>
                                                             <div class="col-xs-4">
-                                                                <input type="radio" id="customRadio17"
-                                                                       name="customRadio" class="custom-control-input">
-                                                                <label class="custom-control-label" for="customRadio17">No</label>
+                                                                <input type="radio" id="customRadio1217"
+                                                                       name="dental_problem" value="no" class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadio1217">No</label>
                                                             </div>
 
 
@@ -1150,15 +796,15 @@
                                                     <div class="custom-control custom-radio">
                                                         <div class="row no-gutters">
                                                             <div class="col-xs-4 mr-5">
-                                                                <input type="radio" id="customRadio16"
-                                                                       name="customRadio" class="custom-control-input"
+                                                                <input type="radio" id="customRadio16231"
+                                                                       name="diet_control" value="yes" class="custom-control-input"
                                                                        checked>
-                                                                <label class="custom-control-label" for="customRadio16">Yes</label>
+                                                                <label class="custom-control-label" for="customRadio16231">Yes</label>
                                                             </div>
                                                             <div class="col-xs-4">
-                                                                <input type="radio" id="customRadio17"
-                                                                       name="customRadio" class="custom-control-input">
-                                                                <label class="custom-control-label" for="customRadio17">No</label>
+                                                                <input type="radio" id="customRadio17231"
+                                                                       name="diet_control" value="no"  class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadio17231">No</label>
                                                             </div>
 
 
@@ -1181,15 +827,15 @@
                                                     <div class="custom-control custom-radio">
                                                         <div class="row no-gutters">
                                                             <div class="col-xs-4 mr-5">
-                                                                <input type="radio" id="customRadio16"
-                                                                       name="customRadio" class="custom-control-input"
+                                                                <input type="radio" id="customRadio1623"
+                                                                       name="physical_activity" value="yes" class="custom-control-input"
                                                                        checked>
-                                                                <label class="custom-control-label" for="customRadio16">Yes</label>
+                                                                <label class="custom-control-label" for="customRadio1623">Yes</label>
                                                             </div>
                                                             <div class="col-xs-4">
-                                                                <input type="radio" id="customRadio17"
-                                                                       name="customRadio" class="custom-control-input">
-                                                                <label class="custom-control-label" for="customRadio17">No</label>
+                                                                <input type="radio" id="customRadio1723"
+                                                                       name="physical_activity" value="no" class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadio1723">No</label>
                                                             </div>
 
 
@@ -1206,15 +852,15 @@
                                                     <div class="custom-control custom-radio">
                                                         <div class="row no-gutters">
                                                             <div class="col-xs-4 mr-5">
-                                                                <input type="radio" id="customRadio16"
-                                                                       name="customRadio" class="custom-control-input"
+                                                                <input type="radio" id="customRadio1611"
+                                                                       name="steroid_use" value="yes" class="custom-control-input"
                                                                        checked>
-                                                                <label class="custom-control-label" for="customRadio16">Yes</label>
+                                                                <label class="custom-control-label" for="customRadio1611">Yes</label>
                                                             </div>
                                                             <div class="col-xs-4">
-                                                                <input type="radio" id="customRadio17"
-                                                                       name="customRadio" class="custom-control-input">
-                                                                <label class="custom-control-label" for="customRadio17">No</label>
+                                                                <input type="radio" id="customRadio1711"
+                                                                       name="steroid_use" value="no" class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadio1711">No</label>
                                                             </div>
 
 
@@ -1239,11 +885,27 @@
                                     </div>
 
                                 </div>
-                            </form>
                         </div>
                     </div>
                 </div>
                 {{--Fifth form--}}
+
+                    {{--Six form--}}
+                    <div class="form-actions">
+                        <div class="row">
+                            <div class="col-md-12 mb-4">
+                                <div class="row">
+                                    <div class="offset-sm-4 offset-md-9 col-md-9">
+                                        {!! csrf_field() !!}
+                                        <button type="submit" class="btn btn-lg btn-success"> <i class="fa fa-check"></i> Submit</button>
+                                        <button type="button" class="btn waves-effect waves-light btn-lg btn-secondary">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{--Fifth form--}}
+
 
 </form>
 
@@ -1350,4 +1012,6 @@
         <!-- End footer -->
         <!-- ============================================================== -->
     </div>
+
+
 @endsection

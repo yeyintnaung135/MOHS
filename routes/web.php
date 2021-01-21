@@ -19,6 +19,23 @@ Route::get('/', function () {
 Route::get('/main', function () {
     return view('index');
 });
-Route::get('/type_two_data_insert', function () {
-    return view('type_two_data_insert');
-});
+
+Route::post('/type_two_data_insert','TypetworegisterController@create');
+Route::get('/type_two_data_insert','TypetworegisterController@createform');
+Route::get('/type_two_patients_list','TypetworegisterController@type_two_patient_list');
+Route::post('/delete_type_two_patient','TypetworegisterController@delete_type_two_patient');
+
+Route::get('/type_two_patient_detail/{id}','TypetworegisterController@type_two_patient_detail');
+
+
+
+
+
+
+//follow up route
+Route::get('/type_two_followup_insert','TypetwofollowupController@type_two_followup_insert_form');
+Route::post('/type_two_followup_insert','TypetwofollowupController@type_two_followup_insert');
+Route::get('/type_two_followup_list','TypetwofollowupController@type_two_followup_list');
+Route::get('/type_two_followup_detail/{id}','TypetwofollowupController@type_two_followup_detail');
+
+Route::post('/delete_type_two_followup','TypetwofollowupController@delete_type_two_followup');
