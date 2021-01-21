@@ -409,7 +409,7 @@
 
 
 
-
+<form>
 
                 {{--First form--}}
                 <div class="row">
@@ -552,41 +552,7 @@
 
 
 
-                                        <!--/row-->
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">Category</label>
-                                                    <select class="form-control custom-select"
-                                                            data-placeholder="Choose a Category" tabindex="1">
-                                                        <option value="Category 1">Category 1</option>
-                                                        <option value="Category 2">Category 2</option>
-                                                        <option value="Category 3">Category 5</option>
-                                                        <option value="Category 4">Category 4</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">Membership</label>
-                                                    <div class="custom-control custom-radio">
-                                                        <input type="radio" id="customRadio11" name="customRadio"
-                                                               class="custom-control-input">
-                                                        <label class="custom-control-label"
-                                                               for="customRadio11">Free</label>
-                                                    </div>
-                                                    <div class="custom-control custom-radio">
-                                                        <input type="radio" id="customRadio22" name="customRadio"
-                                                               class="custom-control-input">
-                                                        <label class="custom-control-label"
-                                                               for="customRadio22">Paid</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                        </div>
-                                        <!--/row-->
+
                                     </div>
 
                                 </div>
@@ -1279,7 +1245,7 @@
                 </div>
                 {{--Fifth form--}}
 
-
+</form>
 
 
 
